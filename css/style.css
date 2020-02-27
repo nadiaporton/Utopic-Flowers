@@ -1,7 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* test link met html */
+
+body {
+    background-color: pink;
+}
+
+
 /* Your code goes here */
+
+.container {
+    background-color: gray;
+    /* width is 80 % van de body, van het scherm */
+    width: 70%;
+    margin: 0 auto;
+    /* verplaats naar midden met margin 0 auto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 5px solid #;
+}
+
+.header {
+    background-color: white;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.headerleft {
+    background-color: aqua;
+    flex-grow: 1;
+    /* width: 40%; */
+    display: flex;
+    /* justify-content: start; */
+    /* background-image: url(../img/logo.png/); */
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    /* background-repeat: no-repeat; */
+    /* Do not repeat the image */
+    /* background-size: cover; */
+}
+
+.headerright {
+    background-color: blueviolet;
+    /* width: 60%; */
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    border: 5px solid red;
+    background-color: lightgray;
+    display: flex;
+    justify-content: stretch;
+}
+
+.foto {
+    border: 5px solid yellow;
+}
+
+.kolom {
+    border: 5px solid rgb(55, 0, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+.fourColumn {}
